@@ -20,8 +20,9 @@ namespace TodoApi
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<TodoContext>(opt =>
-               opt.UseInMemoryDatabase("TodoList"));
+            var connectionString = "Server=SKAB4-PC-01;Initial Catalog=BiografTestDB;Integrated Security=True";
+            services.AddDbContext<TodoContext>(g => g.UseSqlServer(connectionString));
+            //services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase("TodoList"));
             services.AddControllers();
         }
 

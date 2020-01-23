@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lundqvist\\source\\repos\\TodoApi\\TodoApi.csproj": {}
+    "C:\\Users\\Tec\\source\\repos\\Tutorial-TodoAPI\\TodoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lundqvist\\source\\repos\\TodoApi\\TodoApi.csproj": {
+    "C:\\Users\\Tec\\source\\repos\\Tutorial-TodoAPI\\TodoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lundqvist\\source\\repos\\TodoApi\\TodoApi.csproj",
+        "projectUniqueName": "C:\\Users\\Tec\\source\\repos\\Tutorial-TodoAPI\\TodoApi.csproj",
         "projectName": "TodoApi",
-        "projectPath": "C:\\Users\\Lundqvist\\source\\repos\\TodoApi\\TodoApi.csproj",
-        "packagesPath": "C:\\Users\\Lundqvist\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lundqvist\\source\\repos\\TodoApi\\obj\\",
+        "projectPath": "C:\\Users\\Tec\\source\\repos\\Tutorial-TodoAPI\\TodoApi.csproj",
+        "packagesPath": "C:\\Users\\Tec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tec\\source\\repos\\Tutorial-TodoAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lundqvist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tec\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,17 +48,17 @@
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.1.1, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.1.1, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[3.1.0, )"
+              "version": "[3.1.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
